@@ -69,3 +69,6 @@ while i < len(lang_line):
         else:
             stack.append(rules_dict[expr_str])
             expr_stack = []
+    else:
+        print('Line is invalid')
+        break
